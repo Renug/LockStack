@@ -1,7 +1,7 @@
 CC = clang++
 LD = Ld 
 CFLAGS = -g -c -Wall -framework Foundation -stdlib=libc++ -std=gnu++11 
-LDFLAG = -lc++ -lc -framework Foundation 
+LDFLAG = -lc++ -framework Foundation 
 TARGET = main
 OBJS = main.o TestEngine.o Node.o LockFreeStack.o LockFreeQueue.o
 all: $(TARGET)
